@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">FOODMANDU</string>
+    <string name="title_activity_dashboard">dashboardActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Foodmandu Application</string>
+    <string name="nav_header_subtitle">Foodmandu categores and items</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="submenu_Restaurants">Restaurants</string>
+    <string name="submenu_Liguors">Liquors</string>
+    <string name="submenu_Bakeries">Bakeries</string>
+    <string name="submenu_Organic">Organic</string>
+
+    <string name="menu_favourites">My Favourites</string>
+    <string name="menu_basket">My Basket</string>
+    <string name="menu_history">Order History</string>
+    <string name="menu_notification">Notifications</string>
+    <string name="menu_more">More</string>
+
+
+    <string name="menu_facebook"></string>
+    <string name="menu_Youtube"></string>
+    <string name="menu_twitter"></string>
+    <string name="menu_instagram"></string>
+    <string name="menu_contact"></string>
+</resources>

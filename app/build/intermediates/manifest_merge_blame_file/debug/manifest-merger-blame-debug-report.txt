@@ -1,0 +1,98 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.keeyoshi.foodmandu"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\Keeyoshi\Downloads\Foodmandu_ANDROID\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\Keeyoshi\Downloads\Foodmandu_ANDROID\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+11-->C:\Users\Keeyoshi\Downloads\Foodmandu_ANDROID\app\src\main\AndroidManifest.xml:5:5-79
+11-->C:\Users\Keeyoshi\Downloads\Foodmandu_ANDROID\app\src\main\AndroidManifest.xml:5:22-76
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\Users\Keeyoshi\Downloads\Foodmandu_ANDROID\app\src\main\AndroidManifest.xml:6:5-81
+12-->C:\Users\Keeyoshi\Downloads\Foodmandu_ANDROID\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->C:\Users\Keeyoshi\Downloads\Foodmandu_ANDROID\app\src\main\AndroidManifest.xml:7:5-80
+13-->C:\Users\Keeyoshi\Downloads\Foodmandu_ANDROID\app\src\main\AndroidManifest.xml:7:22-77
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->C:\Users\Keeyoshi\Downloads\Foodmandu_ANDROID\app\src\main\AndroidManifest.xml:8:5-79
+14-->C:\Users\Keeyoshi\Downloads\Foodmandu_ANDROID\app\src\main\AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\Keeyoshi\Downloads\Foodmandu_ANDROID\app\src\main\AndroidManifest.xml:9:5-67
+15-->C:\Users\Keeyoshi\Downloads\Foodmandu_ANDROID\app\src\main\AndroidManifest.xml:9:22-64
+16
+17    <application
+17-->C:\Users\Keeyoshi\Downloads\Foodmandu_ANDROID\app\src\main\AndroidManifest.xml:11:5-31:19
+18        android:allowBackup="true"
+18-->C:\Users\Keeyoshi\Downloads\Foodmandu_ANDROID\app\src\main\AndroidManifest.xml:12:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.1.0] C:\Users\Keeyoshi\.gradle\caches\transforms-2\files-2.1\f01b27bb220ecb79298884ef36a7a2fb\core-1.1.0\AndroidManifest.xml:24:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\Keeyoshi\Downloads\Foodmandu_ANDROID\app\src\main\AndroidManifest.xml:13:9-43
+22        android:label="@string/app_name"
+22-->C:\Users\Keeyoshi\Downloads\Foodmandu_ANDROID\app\src\main\AndroidManifest.xml:14:9-41
+23        android:requestLegacyExternalStorage="true"
+23-->C:\Users\Keeyoshi\Downloads\Foodmandu_ANDROID\app\src\main\AndroidManifest.xml:15:9-52
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\Users\Keeyoshi\Downloads\Foodmandu_ANDROID\app\src\main\AndroidManifest.xml:16:9-54
+25        android:supportsRtl="true"
+25-->C:\Users\Keeyoshi\Downloads\Foodmandu_ANDROID\app\src\main\AndroidManifest.xml:17:9-35
+26        android:testOnly="true"
+27        android:theme="@style/AppTheme"
+27-->C:\Users\Keeyoshi\Downloads\Foodmandu_ANDROID\app\src\main\AndroidManifest.xml:18:9-40
+28        android:usesCleartextTraffic="true" >
+28-->C:\Users\Keeyoshi\Downloads\Foodmandu_ANDROID\app\src\main\AndroidManifest.xml:19:9-44
+29        <activity android:name="com.keeyoshi.foodmandu.MainActivity" />
+29-->C:\Users\Keeyoshi\Downloads\Foodmandu_ANDROID\app\src\main\AndroidManifest.xml:20:9-59
+29-->C:\Users\Keeyoshi\Downloads\Foodmandu_ANDROID\app\src\main\AndroidManifest.xml:20:19-47
+30        <activity android:name="com.keeyoshi.foodmandu.WelcomeActivity" />
+30-->C:\Users\Keeyoshi\Downloads\Foodmandu_ANDROID\app\src\main\AndroidManifest.xml:21:9-53
+30-->C:\Users\Keeyoshi\Downloads\Foodmandu_ANDROID\app\src\main\AndroidManifest.xml:21:19-50
+31        <activity android:name="com.keeyoshi.foodmandu.RegisterActivity" />
+31-->C:\Users\Keeyoshi\Downloads\Foodmandu_ANDROID\app\src\main\AndroidManifest.xml:22:9-54
+31-->C:\Users\Keeyoshi\Downloads\Foodmandu_ANDROID\app\src\main\AndroidManifest.xml:22:19-51
+32        <activity android:name="com.keeyoshi.foodmandu.LoginActivity" />
+32-->C:\Users\Keeyoshi\Downloads\Foodmandu_ANDROID\app\src\main\AndroidManifest.xml:23:9-60
+32-->C:\Users\Keeyoshi\Downloads\Foodmandu_ANDROID\app\src\main\AndroidManifest.xml:23:19-48
+33        <activity android:name="com.keeyoshi.foodmandu.SplashActivity" >
+33-->C:\Users\Keeyoshi\Downloads\Foodmandu_ANDROID\app\src\main\AndroidManifest.xml:24:9-30:20
+33-->C:\Users\Keeyoshi\Downloads\Foodmandu_ANDROID\app\src\main\AndroidManifest.xml:24:19-49
+34            <intent-filter>
+34-->C:\Users\Keeyoshi\Downloads\Foodmandu_ANDROID\app\src\main\AndroidManifest.xml:25:13-29:29
+35                <action android:name="android.intent.action.MAIN" />
+35-->C:\Users\Keeyoshi\Downloads\Foodmandu_ANDROID\app\src\main\AndroidManifest.xml:26:17-69
+35-->C:\Users\Keeyoshi\Downloads\Foodmandu_ANDROID\app\src\main\AndroidManifest.xml:26:25-66
+36
+37                <category android:name="android.intent.category.LAUNCHER" />
+37-->C:\Users\Keeyoshi\Downloads\Foodmandu_ANDROID\app\src\main\AndroidManifest.xml:28:17-77
+37-->C:\Users\Keeyoshi\Downloads\Foodmandu_ANDROID\app\src\main\AndroidManifest.xml:28:27-74
+38            </intent-filter>
+39        </activity>
+40
+41        <provider
+41-->[com.squareup.picasso:picasso:2.71828] C:\Users\Keeyoshi\.gradle\caches\transforms-2\files-2.1\997a7ac1d234ecf7481b39b9e90d98e3\jetified-picasso-2.71828\AndroidManifest.xml:8:9-11:40
+42            android:name="com.squareup.picasso.PicassoProvider"
+42-->[com.squareup.picasso:picasso:2.71828] C:\Users\Keeyoshi\.gradle\caches\transforms-2\files-2.1\997a7ac1d234ecf7481b39b9e90d98e3\jetified-picasso-2.71828\AndroidManifest.xml:9:13-64
+43            android:authorities="com.keeyoshi.foodmandu.com.squareup.picasso"
+43-->[com.squareup.picasso:picasso:2.71828] C:\Users\Keeyoshi\.gradle\caches\transforms-2\files-2.1\997a7ac1d234ecf7481b39b9e90d98e3\jetified-picasso-2.71828\AndroidManifest.xml:10:13-72
+44            android:exported="false" />
+44-->[com.squareup.picasso:picasso:2.71828] C:\Users\Keeyoshi\.gradle\caches\transforms-2\files-2.1\997a7ac1d234ecf7481b39b9e90d98e3\jetified-picasso-2.71828\AndroidManifest.xml:11:13-37
+45        <provider
+45-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Keeyoshi\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+46            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+46-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Keeyoshi\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+47            android:authorities="com.keeyoshi.foodmandu.lifecycle-process"
+47-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Keeyoshi\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+48            android:exported="false"
+48-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Keeyoshi\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+49            android:multiprocess="true" />
+49-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Keeyoshi\.gradle\caches\transforms-2\files-2.1\b3c088406576b03c69a90621925ddf75\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+50    </application>
+51
+52</manifest>

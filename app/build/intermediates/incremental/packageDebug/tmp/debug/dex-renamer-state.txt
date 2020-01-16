@@ -1,0 +1,4 @@
+#Thu Jan 16 18:01:05 NPT 2020
+base.0=C\:\\Users\\Keeyoshi\\Downloads\\Foodmandu_ANDROID\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
